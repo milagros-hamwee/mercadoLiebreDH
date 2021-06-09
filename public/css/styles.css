@@ -396,7 +396,8 @@ footer i:hover {
         width: 100%;
     }
 
-    .icono-menu:hover + nav{
+    .icono-menu:hover + nav,
+    .icono-menu:active + nav{
         visibility: visible;
         height:fit-content;
     }
