@@ -118,6 +118,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    text-align: left;
     align-self: right;
     justify-content: space-around;
 }
