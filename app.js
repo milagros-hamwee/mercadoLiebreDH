@@ -18,6 +18,6 @@ app.get("/login", (req, res)=> {
     res.sendFile(path.resolve(__dirname, "./views/login.html"))
 })
 
-app.listen (3001, ()=> {
-    console.log("funcionando")
+app.listen (process.env.PORT || 3000, function (){
+    console.log('Servidor corriendo en el puerto 3000')
 })
