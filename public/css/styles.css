@@ -135,11 +135,8 @@ nav {
 }
 
 .banner {
-    background-image: url(/img/img-home-banner.jpg);
     width: 100vw;
-    height: 200px;
-    background-size: cover;
-    background-position: center center;
+    height:fit-content;
     padding: 0px;
 }
 
