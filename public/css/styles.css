@@ -265,7 +265,9 @@ main img {
 
 footer{
     width: 100%;
-    padding: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: white;
     text-align: center;
 }
@@ -291,15 +293,14 @@ footer i {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-}
-.aviso {
-    margin-bottom: 4%;
+    margin-bottom: 1%;
 }
 
 .copyright {
     font-size: 8px;
-    font-weight: lighter;
+    font-weight: 50;
     text-align: left;
+    padding: 0px;
 }
 
 /*ANIMACION FOOTER*/
