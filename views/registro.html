@@ -51,10 +51,10 @@
         <main>
 
             <p class="titular">Creá tu cuenta</p>
-            <form class="formulario-registro" method="GET" action="/app.js">
+            <form class="formulario-registro" method="GET" action="/">
                 <div class="input-y-label">
                     <label for="nombre-apellido" class="nombre-categoria">Nombre y apellido</label>
-                    <input name="nombre-apellido" class="input-texto" type="text" placeholder=" Ej: Carlos Pérez" required>
+                    <input name="nombre-apellido" class="input-texto" type="text" placeholder=" Ej: Carlos Pérez" required minlength="3">
                 </div>
                 <div class="input-y-label">
                     <label for="nombre-usuario" class="nombre-categoria">Nombre de usuario</label>
@@ -127,7 +127,7 @@
                 <div class="contraseñas">
                     <div class="input-y-label">
                         <label for="contraseña" class="nombre-categoria">Contraseña</label>
-                        <input name="contraseña" class="input-texto" type="password" required>
+                        <input name="contraseña" class="input-texto" type="password" required minlength="8">
                     </div>
 
                     <div class="input-y-label">
